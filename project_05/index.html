@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Caveat:wght@400..700&family=Merienda:wght@300..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Caveat:wght@400..700&family=Merienda:wght@300..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Caveat:wght@400..700&family=Merienda:wght@300..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <aside id="navigation">
+        <span>
+            <i class="bi mobile-nav-toggle d-xl-none bi-x" onclick="close_nav()"></i>
+        </span>
+        <img src="https://mskweb.github.io/products/Portfolio/01-iPortfolio/assets/img/profile-img.jpg" alt="">
+        <h1>Alex Smith</h1>
+        <div class="icon">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-skype"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <nav>
+            <a href="#home" onclick="close_nav()"><i class="fa-solid fa-house"></i>Home</a>
+            <a href="#about" onclick="close_nav()"><i class="fa-solid fa-user"></i>About</a>
+            <a href="#resume" onclick="close_nav()"><i class="fa-regular fa-file"></i>Resume</a>
+            <a href="#portfolio" onclick="close_nav()"><i class="fa-solid fa-pager"></i>Portfolio</a>
+            <a href="#service" onclick="close_nav()"><i class="fa-solid fa-server"></i>Services</a>
+            <a href="#contact" onclick="close_nav()"><i class="fa-solid fa-envelope"></i>Contact</a>
+        </nav>
+
+        <footer>
+            <h4>&copy; Copyright <strong>iPortfolio</strong></h4>
+            <p>Designed By <a href="#">Bootstrap Made</a></p>
+        </footer>
+    </aside>
+    
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Alex Smith</h1>
+            <p>I'm Developer</p>
+            <span>
+                <i class="bi bi-list mobile-nav-toggle d-xl-none" onclick="open_nav()"></i>
+            </span>
+        </div>
+    </section>
+
+    <article id="about">
+        <div class="top">
+            <h1>About</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam quis commodi sed, molestias! Animi
+                molestiae numquam inventore placeat blanditiis! Est nostrum, earum iure exercitationem sunt
+                deleniti possimus. Autem, quia!</p>
+        </div>
+        <div class="container">
+            <div class="card">
+                <img src="https://mskweb.github.io/products/Portfolio/01-iPortfolio/assets/img/profile-img.jpg" alt="">
+            </div>
+            <div class="card2">
+                <h1>UI/UX Designer & Web Developer.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis iste autem quia porro inventore
+                    hic, amet quam laborum.</p>
+                <div class="div">
+                    <div class="box">
+                        <p><i class="bi bi-chevron-right"></i><strong>Birthday:</strong> 20 April 2005</p>
+                        <p><i class="bi bi-chevron-right"></i><strong>Website:</strong> www.example.com</p>
+                        <p><i class="bi bi-chevron-right"></i><strong>Phone:</strong> +91 9149184310</p>
+                        <p><i class="bi bi-chevron-right"></i><strong>City:</strong> New York, USA</p>
+                    </div>
+                    <div class="box">
+                        <p><i class="bi bi-chevron-right"></i><strong>Age:</strong> 19</p>
+                        <p><i class="bi bi-chevron-right"></i><strong>Degree:</strong> Master</p>
+                        <p><i class="bi bi-chevron-right"></i><strong>Email:</strong> example@gmail.com</p>
+                        <p><i class="bi bi-chevron-right"></i><strong>Freelance:</strong> Available</p>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ad recusandae iure eius
+                    voluptatibus dolorum rem nemo nesciunt quidem! Commodi veniam ad reiciendis non impedit doloremque
+                    deleniti voluptates, sint perspiciatis officia ut eos unde id beatae ex, esse necessitatibus amet?
+                </p>
+            </div>
+        </div>
+    </article>
+
+    <div class="fact">
+        <div class="top">
+            <h1>Facts</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil harum, voluptatibus quaerat tempora
+                maxime ipsum debitis, labore quidem incidunt corrupti vitae rerum optio! Adipisci, nisi vero! Sit
+                quibusdam vero autem!</p>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="box">
+                    <i class="bi bi-emoji-smile"></i>
+                </div>
+                <div class="box2">
+                    <h1>232</h1>
+                    <h4>Happy Clients</h4>
+                    <p>maxime ipsum</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <i class="bi bi-journal-richtext"></i>
+                </div>
+                <div class="box2">
+                    <h1>521</h1>
+                    <h4>Projects</h4>
+                    <p>maxime ipsum</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <i class="bi bi-headset"></i>
+                </div>
+                <div class="box2">
+                    <h1>1453</h1>
+                    <h4>Hours of Support</h4>
+                    <p>maxime ipsum</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <i class="bi bi-people"></i>
+                </div>
+                <div class="box2">
+                    <h1>31</h1>
+                    <h4>Hard Workers</h4>
+                    <p>maxime ipsum</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="top">
+            <h1>Skill</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil harum, voluptatibus quaerat tempora
+                maxime ipsum debitis, labore quidem incidunt corrupti vitae rerum optio! Adipisci, nisi vero! Sit
+                quibusdam vero autem!</p>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="progress-content-bar">
+                    <div class="progress-content">
+                        <span>HTML</span>
+                        <span style="float: right;">100%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="bar"></div>
+                    </div>
+                </div>
+                <div class="progress-content-bar">
+                    <div class="progress-content">
+                        <span>CSS</span>
+                        <span style="float: right;">90%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="bar" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="progress-content-bar">
+                    <div class="progress-content">
+                        <span>JAVASCRIPT</span>
+                        <span style="float: right;">75%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="bar" style="width: 75%;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="progress-content-bar">
+                    <div class="progress-content">
+                        <span>PHP</span>
+                        <span style="float: right;">80%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="bar" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="progress-content-bar">
+                    <div class="progress-content">
+                        <span>WORDPRESS/CMS</span>
+                        <span style="float: right;">90%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="bar" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="progress-content-bar">
+                    <div class="progress-content">
+                        <span>PHOTOSHOP</span>
+                        <span style="float: right;">55%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="bar" style="width: 55%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="resume" id="resume">
+        <div class="top">
+            <h1>Resume</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil harum, voluptatibus quaerat tempora
+                maxime ipsum debitis, labore quidem incidunt corrupti vitae rerum optio! Adipisci, nisi vero! Sit
+                quibusdam vero autem!</p>
+        </div>
+        <div class="container">
+            <div class="card">
+                <h1>Summary</h1>
+                <div class="summary">
+                    <h1>ALEX SMITH</h1>
+                    <p>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</p>
+                    <ul>
+                        <li>Portland par 127,Orlando, FL</li>
+                        <li>+91 9149184310</li>
+                        <li>example.@gmail.com</li>
+                    </ul>
+                </div>
+                <h1>Education</h1>
+                <div class="education">
+                    <h1>Master of Fine Arts & Graphic Design</h1>
+                    <span>2015 - 2016</span>
+                    <p>Rochester Institute of Technology, Rochester, NY</p>
+                    <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+                </div>
+                <div class="education">
+                    <h1>Bachelor of Fine Arts & Graphic Design</h1>
+                    <span>2010 - 2014</span>
+                    <p>Rochester Institute of Technology, Rochester, NY</p>
+                    <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+                </div>
+            </div>
+            <div class="card" style="margin-left: 1%;">
+                <h1>Professional Experience</h1>
+                <div class="summary">
+                    <h1>Senior graphic design specialist</h1>
+                    <span>2019 - Present</span>
+                    <p>Experion, New York, NY</p>
+                    <ul>
+                        <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
+                        <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project.</li>
+                        <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
+                        <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+                    </ul>
+                </div>
+                <div class="education">
+                    <h1>Graphic Design Specialist</h1>
+                    <span>2017 - 2018</span>
+                    <p>Stepping Stone Advertising, New York, NY</p>
+                    <ul>
+                        <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
+                        <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
+                        <li>Recommended and consulted with clients on the most appropriate graphic design</li>
+                        <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio" id="portfolio">
+        <div class="top">
+            <h1>Portfolio</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil harum, voluptatibus quaerat tempora
+                maxime ipsum debitis, labore quidem incidunt corrupti vitae rerum optio! Adipisci, nisi vero! Sit
+                quibusdam vero autem!</p>
+        </div>
+        <div class="container">
+            <nav>
+                <a href="#">ALL</a>
+                <a href="#">APP</a>
+                <a href="#">CARD</a>
+                <a href="#">WEB</a>
+            </nav>
+            <div class="photos">
+                <div class="card">
+                    <img src="https://mskweb.github.io/products/Portfolio/01-iPortfolio/assets/img/portfolio/portfolio-1.jpg"
+                        alt="">
+                </div>
+                <div class="card">
+                    <img src="https://mskweb.github.io/products/Portfolio/01-iPortfolio/assets/img/portfolio/portfolio-2.jpg"
+                        alt="">
+                </div>
+                <div class="card">
+                    <img src="https://mskweb.github.io/products/Portfolio/01-iPortfolio/assets/img/portfolio/portfolio-3.jpg"
+                        alt="">
+                </div>
+                <div class="card">
+                    <img src="https://mskweb.github.io/products/Portfolio/01-iPortfolio/assets/img/portfolio/portfolio-4.jpg"
+                        alt="">
+                </div>
+                <div class="card">
+                    <img src="https://mskweb.github.io/products/Portfolio/01-iPortfolio/assets/img/portfolio/portfolio-5.jpg"
+                        alt="">
+                </div>
+                <div class="card">
+                    <img src="https://mskweb.github.io/products/Portfolio/01-iPortfolio/assets/img/portfolio/portfolio-6.jpg"
+                        alt="">
+                </div>
+                <div class="card">
+                    <img src="https://mskweb.github.io/products/Portfolio/01-iPortfolio/assets/img/portfolio/portfolio-7.jpg"
+                        alt="">
+                </div>
+                <div class="card">
+                    <img src="https://mskweb.github.io/products/Portfolio/01-iPortfolio/assets/img/portfolio/portfolio-8.jpg"
+                        alt="">
+                </div>
+                <div class="card">
+                    <img src="https://mskweb.github.io/products/Portfolio/01-iPortfolio/assets/img/portfolio/portfolio-9.jpg"
+                        alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="service" id="service">
+        <div class="top">
+            <h1>Service</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil harum, voluptatibus quaerat tempora
+                maxime ipsum debitis, labore quidem incidunt corrupti vitae rerum optio! Adipisci, nisi vero! Sit
+                quibusdam vero autem!</p>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="box">
+                    <i class="bi bi-briefcase"></i>
+                </div>
+                <div class="box2">
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic eaque voluptates. Blanditiis id.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <i class="bi bi-card-checklist"></i>
+                </div>
+                <div class="box2">
+                    <h3>Blanditiis Id</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic eaque voluptates. Blanditiis id.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <i class="bi bi-bar-chart"></i>
+                </div>
+                <div class="box2">
+                    <h3>Adipisicing Elit</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic eaque voluptates. Blanditiis id.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <i class="bi bi-binoculars"></i>
+                </div>
+                <div class="box2">
+                    <h3>Amet Consectetur</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic eaque voluptates. Blanditiis id.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <i class="bi bi-brightness-high"></i>
+                </div>
+                <div class="box2">
+                    <h3>Eaque Voluptates</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic eaque voluptates. Blanditiis id.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <i class="bi bi-calendar4-week"></i>
+                </div>
+                <div class="box2">
+                    <h3>Dolor Sit</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic eaque voluptates. Blanditiis id.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="testimonials" id="testimonials">
+        <div class="top">
+            <h1>Testimonials</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil harum, voluptatibus quaerat tempora
+                maxime ipsum debitis, labore quidem incidunt corrupti vitae rerum optio! Adipisci, nisi vero! Sit
+                quibusdam vero autem!</p>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="box">
+                    <p><i class="bx bxs-quote-alt-left quote-icon-left"></i>Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit. Ducimus sapiente blanditiis culpa autem sit quo molestias necessitatibus
+                        sapiente porro accusamus ab. <i class="bx bxs-quote-alt-right quote-icon-right"></i></p>
+                </div>
+                <div class="box2">
+                    <img src="https://mskweb.github.io/products/Portfolio/01-iPortfolio/assets/img/testimonials/testimonials-1.jpg"
+                        alt="">
+                    <h2>Saul Goodman</h2>
+                    <p>CEO & Founder</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <p><i class="bx bxs-quote-alt-left quote-icon-left"></i>Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit. Ducimus sapiente blanditiis culpa autem sit quo molestias necessitatibus
+                        sapiente porro accusamus ab. <i class="bx bxs-quote-alt-right quote-icon-right"></i></p>
+                </div>
+                <div class="box2">
+                    <img src="https://mskweb.github.io/products/Portfolio/01-iPortfolio/assets/img/testimonials/testimonials-2.jpg"
+                        alt="">
+                    <h2>Sara Wilson</h2>
+                    <p>Designer</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <p><i class="bx bxs-quote-alt-left quote-icon-left"></i>Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit. Ducimus sapiente blanditiis culpa autem sit quo molestias necessitatibus
+                        sapiente porro accusamus ab. <i class="bx bxs-quote-alt-right quote-icon-right"></i></p>
+                </div>
+                <div class="box2">
+                    <img src="https://mskweb.github.io/products/Portfolio/01-iPortfolio/assets/img/testimonials/testimonials-3.jpg"
+                        alt="">
+                    <h2>Jana Karlis</h2>
+                    <p>Store Owner</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact" id="contact">
+        <div class="top">
+            <h1>Contact</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil harum, voluptatibus quaerat tempora
+                maxime ipsum debitis, labore quidem incidunt corrupti vitae rerum optio! Adipisci, nisi vero! Sit
+                quibusdam vero autem!</p>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="call">
+                    <div class="box">
+                        <i class="bi bi-geo-alt"></i>
+                    </div>
+                    <div class="box2">
+                        <h2>Location :</h2>
+                        <p>A108 Adam Street, New York, USA</p>
+                    </div>
+                </div>
+                <div class="call">
+                    <div class="box">
+                        <i class="bi bi-envelope"></i>
+                    </div>
+                    <div class="box2">
+                        <h2>Email :</h2>
+                        <p>example@gmail.com</p>
+                    </div>
+                </div>
+                <div class="call">
+                    <div class="box">
+                        <i class="bi bi-phone"></i>
+                    </div>
+                    <div class="box2">
+                        <h2>Call :</h2>
+                        <p>+91 9149184310</p>
+                    </div>
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!4v1733735283750!6m8!1m7!1sF-BAMXs5swome3LyCRMnkA!2m2!1d27.092563316408!2d78.57867807955958!3f271.99661709662934!4f10.717174602618627!5f0.7820865974627469"
+                    width="380px" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="card2">
+                <form>
+                    <div class="box">
+                        <label for="name">Your Name</label><br>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div class="box">
+                        <label for="email">Your Email</label><br>
+                        <input type="email" name="email" id="email">
+                    </div>
+                </form>
+                <label for="subject">Subject</label><br>
+                <input type="text" name="subject" id="subject"><br>
+                <label for="message">Message</label><br>
+                <textarea name="message" id="message"></textarea><br>
+                <button>Send Message</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

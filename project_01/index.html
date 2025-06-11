@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Caveat:wght@400..700&family=Merienda:wght@300..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Merienda:wght@300..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="div">
+            <img src="https://mskweb.github.io/products/Restaurant/03-keto/images/logo.png" alt="">
+        </div>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="room.html">OUR ROOM</a>
+            <a href="gallery.html">GALLERY</a>
+            <a href="blog.html">BLOG</a>
+            <a href="contact.html">CONTACT US</a>
+        </nav>
+        <span onclick="open_nav()">
+            <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+        </span>
+        <div id="nav">
+            <i class="bi mobile-nav-toggle d-xl-none bi-x" onclick="close_nav()"></i>
+            <nav>
+                <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="room.html">OUR ROOM</a>
+            <a href="gallery.html">GALLERY</a>
+            <a href="blog.html">BLOG</a>
+            <a href="contact.html">CONTACT US</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="hero">
+        <img src="https://mskweb.github.io/products/Restaurant/03-keto/images/banner3.jpg" alt="">
+        <div class="card">
+            <h2>BOOK A ROOM ONLINE</h2>
+            <label for="arrival">Arrival</label>
+            <input type="date" name="arrival" id="arrival">
+            <label for="departure">Departure</label>
+            <input type="date" name="departure" id="departure">
+            <button>Book Now</button>
+        </div>
+    </div>
+
+    <section>
+        <div class="container">
+            <div class="card">
+                <h1>ABOUT US</h1>
+                <p>The passage experienced a surge in popularity during the 1960s when Letraset used it on their
+                    dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their
+                    software. Today it's seen all around the web; on templates, websites, and stock designs. Use our
+                    generator to get your own, or read on for the authoritative history of lorem ipsum.</p>
+                <button>Read More</button>
+            </div>
+            <div class="card2">
+                <img src="https://mskweb.github.io/products/Restaurant/03-keto/images/about.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <div class="room">
+        <h1>OUR ROOM</h1>
+        <p>Lorem Ipsum available, but the majority have suffered</p>
+
+        <div class="container">
+            <div class="card">
+                <div class="box">
+                    <img src="https://mskweb.github.io/products/Restaurant/03-keto/images/room1.jpg" alt="">
+                </div>
+                <div class="box2">
+                    <h1>Bed Room</h1>
+                    <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img src="https://mskweb.github.io/products/Restaurant/03-keto/images/room2.jpg" alt="">
+                </div>
+                <div class="box2">
+                    <h1>Bed Room</h1>
+                    <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img src="https://mskweb.github.io/products/Restaurant/03-keto/images/room3.jpg" alt="">
+                </div>
+                <div class="box2">
+                    <h1>Bed Room</h1>
+                    <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img src="https://mskweb.github.io/products/Restaurant/03-keto/images/room4.jpg" alt="">
+                </div>
+                <div class="box2">
+                    <h1>Bed Room</h1>
+                    <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img src="https://mskweb.github.io/products/Restaurant/03-keto/images/room5.jpg" alt="">
+                </div>
+                <div class="box2">
+                    <h1>Bed Room</h1>
+                    <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img src="https://mskweb.github.io/products/Restaurant/03-keto/images/room6.jpg" alt="">
+                </div>
+                <div class="box2">
+                    <h1>Bed Room</h1>
+                    <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="gallery">
+        <h1>GALLERY</h1>
+        <div class="container">
+            <div class="card">
+                <img src="https://mskweb.github.io/products/Restaurant/03-keto/images/gallery1.jpg" alt="">
+            </div>
+            <div class="card">
+                <img src="https://mskweb.github.io/products/Restaurant/03-keto/images/gallery2.jpg" alt="">
+            </div>
+            <div class="card">
+                <img src="https://mskweb.github.io/products/Restaurant/03-keto/images/gallery3.jpg" alt="">
+            </div>
+            <div class="card">
+                <img src="https://mskweb.github.io/products/Restaurant/03-keto/images/gallery4.jpg" alt="">
+            </div>
+            <div class="card">
+                <img src="https://mskweb.github.io/products/Restaurant/03-keto/images/gallery5.jpg" alt="">
+            </div>
+            <div class="card">
+                <img src="https://mskweb.github.io/products/Restaurant/03-keto/images/gallery6.jpg" alt="">
+            </div>
+            <div class="card">
+                <img src="https://mskweb.github.io/products/Restaurant/03-keto/images/gallery7.jpg" alt="">
+            </div>
+            <div class="card">
+                <img src="https://mskweb.github.io/products/Restaurant/03-keto/images/gallery8.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="blog">
+        <h1>BLOG</h1>
+        <p>Lorem Ipsum available, but the majority have suffered</p>
+        <div class="container">
+            <div class="card">
+                <div class="box">
+                    <img src="https://mskweb.github.io/products/Restaurant/03-keto/images/blog1.jpg" alt="">
+                </div>
+                <div class="box2">
+                    <h2>Bed Room</h2>
+                    <h3>The Standard Chunk</h3>
+                    <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything
+                        embarrassing hidden in the middle of text. All the Lorem Ipsum generatorsIf you are</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img src="https://mskweb.github.io/products/Restaurant/03-keto/images/blog2.jpg" alt="">
+                </div>
+                <div class="box2">
+                    <h2>Bed Room</h2>
+                    <h3>The Standard Chunk</h3>
+                    <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything
+                        embarrassing hidden in the middle of text. All the Lorem Ipsum generatorsIf you are</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img src="https://mskweb.github.io/products/Restaurant/03-keto/images/blog3.jpg" alt="">
+                </div>
+                <div class="box2">
+                    <h2>Bed Room</h2>
+                    <h3>The Standard Chunk</h3>
+                    <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything
+                        embarrassing hidden in the middle of text. All the Lorem Ipsum generatorsIf you are</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact">
+        <h1>CONTACT US</h1>
+        <div class="container">
+            <div class="card">
+                <input type="text" name="name" id="name" placeholder="Name">
+                <input type="text" name="name" id="name" placeholder="Email">
+                <input type="text" name="name" id="name" placeholder="Phone Number">
+                <textarea name="message" id="message">Message</textarea>
+                <button>Send</button>
+            </div>
+            <div class="card2">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2969.2719106622762!2d78.5786789458643!3d27.09246945006166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sin!4v1734083746765!5m2!1sen!2sin"
+                    width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="card">
+                <h1>Contact Us</h1>
+                <p><i class="fa-solid fa-location-dot"></i> Address</p>
+                <p><i class="fa-solid fa-mobile"></i>+91 9149184310</p>
+                <p><i class="fa-regular fa-envelope"></i>example@gmail.com</p>
+            </div>
+            <div class="card">
+                <h1>Menu Link</h1>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Our Room</a>
+                <a href="#">Gallery</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact us</a>
+            </div>
+            <div class="card">
+                <h1>News Letter</h1>
+                <input type="email" name="email" id="email" placeholder="Enter Your Email">
+                <button>Subscribe</button>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <p>&copy; 2019 All Right Reserved. <a href="#">Designe By Free Html Templates</a></p>
+        <p>Distributed By <a href="#">Theme Wagon</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

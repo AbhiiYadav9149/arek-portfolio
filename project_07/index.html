@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Caveat:wght@400..700&family=Merienda:wght@300..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Merienda:wght@300..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="div">
+            <a href="#">
+                <img src="https://mskweb.github.io/products/Education/01-eduweb/assets/images/logo.svg" alt=""></a>
+        </div>
+        <nav>
+            <a href="#hero">Home</a>
+            <a href="#about">About</a>
+            <a href="#courses">Courses</a>
+            <a href="#articles">Blog</a>
+            <a href="#">Contact</a>
+        </nav>
+        <div class="div2">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <button>Try for Free<i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <span><i class="bi bi-list mobile-nav-toggle d-xl-none" onclick="open_nav()"></i></span>
+        <div id="nav">
+            <a href="#">
+                <img src="https://mskweb.github.io/products/Education/01-eduweb/assets/images/logo.svg" alt=""></a>
+            <i class="bi mobile-nav-toggle d-xl-none bi-x" onclick="close_nav()"></i>
+            <div class="link">
+                <a href="#hero" onclick="close_nav()">Home</a>
+                <a href="#about" onclick="close_nav()">About</a>
+                <a href="#courses" onclick="close_nav()">Courses</a>
+                <a href="#articles" onclick="close_nav()">Blog</a>
+                <a href="#" onclick="close_nav()">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="hero" id="hero">
+        <div class="container">
+            <div class="card">
+                <h1>The Best Program to <span>Enroll</span> for Exchange</h1>
+                <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit.</p>
+                <button>Find Course<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div class="card2">
+                <img src="https://mskweb.github.io/products/Education/01-eduweb/assets/images/hero-shape-2.png" alt="">
+                <div class="img">
+                    <img src="https://mskweb.github.io/products/Education/01-eduweb/assets/images/hero-banner-1.jpg"
+                        alt="">
+                    <img src="https://mskweb.github.io/products/Education/01-eduweb/assets/images/hero-banner-2.jpg"
+                        alt="" class="img2">
+                    <img src="https://mskweb.github.io/products/Education/01-eduweb/assets/images/hero-shape-1.svg"
+                        alt="" class="img3">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="categories" id="categories">
+        <h4>CATEGORIES</h4>
+        <h1>Online <span>Classes</span> For Remote Learning.</h1>
+        <p>Consectetur adipiscing elit sed do eiusmod tempor.</p>
+        <div class="container">
+            <div class="card">
+                <div class="box">
+                    <img src="https://mskweb.github.io/products/Education/01-eduweb/assets/images/category-1.svg"
+                        alt="">
+                </div>
+                <div class="box2">
+                    <a href="#">Online Degree Programs</a>
+                    <p>Lorem ipsum dolor consec tur elit adicing sed umod tempor.</p>
+                    <span>7 Courses</span>
+                </div>
+            </div>
+            <div class="card" style="background-color: rgb(253, 236, 239);">
+                <div class="box" style="background-color: rgb(251, 219, 225);">
+                    <img src="https://mskweb.github.io/products/Education/01-eduweb/assets/images/category-2.svg"
+                        alt="">
+                </div>
+                <div class="box2">
+                    <a href="#">Non-Degree Programs</a>
+                    <p>Lorem ipsum dolor consec tur elit adicing sed umod tempor.</p>
+                    <span style="color: rgb(239, 84, 106); background-color: rgb(251, 219, 225);">4 Courses</span>
+                </div>
+            </div>
+            <div class="card" style="background-color: rgb(236, 239, 252);">
+                <div class="box" style="background-color: rgb(219, 225, 249);">
+                    <img src="https://mskweb.github.io/products/Education/01-eduweb/assets/images/category-3.svg"
+                        alt="">
+                </div>
+                <div class="box2">
+                    <a href="#">Off-Capmpus Programs</a>
+                    <p>Lorem ipsum dolor consec tur elit adicing sed umod tempor.</p>
+                    <span style="color: rgb(97, 123, 232); background-color: rgb(219, 225, 249);">8 Courses</span>
+                </div>
+            </div>
+            <div class="card" style="background-color: rgb(254, 247, 232);">
+                <div class="box" style="background-color: rgb(253, 240, 211);">
+                    <img src="https://mskweb.github.io/products/Education/01-eduweb/assets/images/category-4.svg"
+                        alt="">
+                </div>
+                <div class="box2">
+                    <a href="#">Hybrid Distance Programs</a>
+                    <p>Lorem ipsum dolor consec tur elit adicing sed umod tempor.</p>
+                    <span style="background-color: rgb(253, 240, 211); color: rgb(248, 148, 31);">8 Courses</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about" id="about">
+        <div class="container">
+            <div class="card">
+                <img src="https://mskweb.github.io/products/Education/01-eduweb/assets/images/about-shape-3.png" alt="">
+                <div class="img">
+                    <img src="https://mskweb.github.io/products/Education/01-eduweb/assets/images/about-banner.jpg"
+                        alt="" class="img1">
+                    <img src="https://mskweb.github.io/products/Education/01-eduweb/assets/images/about-shape-1.svg"
+                        alt="" class="img2">
+                    <img src="https://mskweb.github.io/products/Education/01-eduweb/assets/images/about-shape-2.svg"
+                        alt="" class="img3">
+                </div>
+            </div>
+            <div class="card2">
+                <h4>ABOUT US</h4>
+                <h1>Over 10 Years in <span>Distant Learning</span> for Skill Development</h1>
+                <p>Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod ex tempor incididunt labore dolore
+                    magna aliquaenim ad minim.</p>
+                <span><i class="bi bi-check2-all"></i>Expert Trainers</span>
+                <span><i class="bi bi-check2-all"></i>Expert Trainers</span>
+                <span><i class="bi bi-check2-all"></i>Expert Trainers</span>
+                <img src="https://mskweb.github.io/products/Education/01-eduweb/assets/images/about-shape-4.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="courses" id="courses">
+        <p>POPULAR COURSES</p>
+        <h1>Pick A Course To Get Started</h1>
+        <div class="container">
+            <div class="card">
+                <div class="box">
+                    <img src="https://mskweb.github.io/products/Education/01-eduweb/assets/images/course-1.jpg" alt="">
+                    <span><i class="fa-regular fa-clock"></i>3 Weeks</span>
+                </div>
+                <div class="box2">
+                    <span>Beginner</span>
+                    <a href="#">Build Responsive Real- World Websites with HTML and CSS</a>
+                    <div class="div">
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="rating">
+                            (5.0/7 Rating)
+                        </div>
+                    </div>
+                    <div class="value">
+                        $29.00
+                    </div>
+                    <div class="list">
+                        <div class="chapter">
+                            <i class="fa-solid fa-book"></i> 8 Lesson
+                        </div>
+                        <div class="student">
+                            <i class="fa-solid fa-users"></i>20 Students
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img src="https://mskweb.github.io/products/Education/01-eduweb/assets/images/course-2.jpg" alt="">
+                    <span><i class="fa-regular fa-clock"></i>8 Weeks</span>
+                </div>
+                <div class="box2">
+                    <span>Advanced</span>
+                    <a href="#">Java Programming Masterclas for Software Develoøers</a>
+                    <div class="div">
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="rating">
+                            (4.5/9 Rating)
+                        </div>
+                    </div>
+                    <div class="value">
+                        $49.00
+                    </div>
+                    <div class="list">
+                        <div class="chapter">
+                            <i class="fa-solid fa-book"></i> 15 Lesson
+                        </div>
+                        <div class="student">
+                            <i class="fa-solid fa-users"></i>30 Students
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img src="https://mskweb.github.io/products/Education/01-eduweb/assets/images/course-3.jpg" alt="">
+                    <span><i class="fa-regular fa-clock"></i>3 Weeks</span>
+                </div>
+                <div class="box2">
+                    <span>Intermediate</span>
+                    <a href="#">The Complete Camtasia Course for Content Creators</a>
+                    <div class="div">
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="rating">
+                            (4.9/7 Rating)
+                        </div>
+                    </div>
+                    <div class="value">
+                        $35.00
+                    </div>
+                    <div class="list">
+                        <div class="chapter">
+                            <i class="fa-solid fa-book"></i> 13 Lesson
+                        </div>
+                        <div class="student">
+                            <i class="fa-solid fa-users"></i>18 Students
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button>Browse more courses<i class="fa-solid fa-arrow-right"></i></button>
+        <div class="container2">
+            <img src="https://mskweb.github.io/products/Education/01-eduweb/assets/images/video-shape-1.png" alt="">
+            <div class="card">
+                <img src="https://mskweb.github.io/products/Education/01-eduweb/assets/images/video-banner.jpg" alt=""
+                    class="img">
+                <img src="https://mskweb.github.io/products/Education/01-eduweb/assets/images/video-shape-2.png" alt=""
+                    class="img2">
+            </div>
+        </div>
+        <div class="container3">
+            <div class="card">
+                <h1>2.93K</h1>
+                <p>STUDENT ENROLLED</p>
+            </div>
+            <div class="card" style="background-color: rgb(253, 236, 239);">
+                <h1 style="color: rgb(238, 73, 98);">32.4K</h1>
+                <p>CLASS COMPLETED</p>
+            </div>
+            <div class="card" style="background-color: rgb(243, 238, 255);">
+                <h1 style="color: rgb(143, 87, 255);">100%</h1>
+                <p>SATISFACTION RATE</p>
+            </div>
+            <div class="card" style="background-color: rgb(254, 247, 232);">
+                <h1 style="color: rgb(248, 183, 32);">354+</h1>
+                <p>TOP INSTRUCTORS</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="articles" id="articles">
+        <img src="https://mskweb.github.io/products/Education/01-eduweb/assets/images/blog-shape.png" alt="" class="img">
+        <p>LATEST ARTICLES</p>
+        <h1>Get New With Eduweb</h1>
+        <div class="container">
+            <div class="card">
+                <div class="box">
+                    <img src="https://mskweb.github.io/products/Education/01-eduweb/assets/images/blog-1.jpg" alt="">
+                </div>
+                <div class="box2">
+                    <p>ONLINE</p>
+                    <a href="#">Become A Better Blogger: Content Planning</a>
+                    <div class="list">
+                        <span><i class="fa-solid fa-calendar-days"></i>OCT 10,2021</span>
+                        <span><i class="fa-regular fa-comments"></i>Com 09</span>
+                    </div>
+                    <p class="id">Lorem Ipsum Dolor Sit Amet Cons Tetur Adipisicing Sed.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img src="https://mskweb.github.io/products/Education/01-eduweb/assets/images/blog-2.jpg" alt="">
+                </div>
+                <div class="box2">
+                    <p>ONLINE</p>
+                    <a href="#">Become A Better Blogger: Content Planning</a>
+                    <div class="list">
+                        <span><i class="fa-solid fa-calendar-days"></i>OCT 10,2021</span>
+                        <span><i class="fa-regular fa-comments"></i>Com 09</span>
+                    </div>
+                    <p class="id">Lorem Ipsum Dolor Sit Amet Cons Tetur Adipisicing Sed.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img src="https://mskweb.github.io/products/Education/01-eduweb/assets/images/blog-3.jpg" alt="">
+                </div>
+                <div class="box2">
+                    <p>ONLINE</p>
+                    <a href="#">Become A Better Blogger: Content Planning</a>
+                    <div class="list">
+                        <span><i class="fa-solid fa-calendar-days"></i>OCT 10,2021</span>
+                        <span><i class="fa-regular fa-comments"></i>Com 09</span>
+                    </div>
+                    <p class="id">Lorem Ipsum Dolor Sit Amet Cons Tetur Adipisicing Sed.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="card">
+                <img src="https://mskweb.github.io/products/Education/01-eduweb/assets/images/logo-light.svg" alt="">
+                <p>Lorem ipsum dolor amet consecto adi pisicing elit sed eiusm tempor incidid unt labore dolore.</p>
+                <span>Add: 70-80 Upper St Norwich NR2</span>
+                <span>Call: <a href="#">+91 9149184310</a></span>
+                <span>Email: <a href="#">example@gmail.com</a></span>
+            </div>
+            <div class="card2">
+                <h2>Online Platform</h2>
+                <a href="#">About</a>
+                <a href="#">Courses</a>
+                <a href="#">Instructor</a>
+                <a href="#">Events</a>
+                <a href="#">Instructor Profile</a>
+                <a href="#">Purchase Guide</a>
+            </div>
+            <div class="card2">
+                <h2>Links</h2>
+                <a href="#">Contact Us</a>
+                <a href="#">Gallery</a>
+                <a href="#">News & Articles</a>
+                <a href="#">FAQ's</a>
+                <a href="#">Sign In/Registration</a>
+                <a href="#">Coming Soon</a>
+            </div>
+            <div class="card">
+                <h2>Contacts</h2>
+                <p>Enter your email address to register to our newsletter subscription</p>
+                <input type="email" placeholder="Your Email">
+                <button>Subscribe</button>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="div">
+            <p>Copyright 2022 All Rights Reserved by <a href="#">codewithsadee</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

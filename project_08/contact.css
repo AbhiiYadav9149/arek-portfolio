@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px 0px 30px;
+    background-color: rgb(233, 232, 230);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+
+    .div {
+        a {
+            font-family: poppins;
+            text-decoration: none;
+            color: black;
+            font-size: 30px;
+        }
+    }
+
+    nav {
+        margin-top: 10px;
+
+        a {
+            font-family: merienda;
+            text-decoration: none;
+            font-size: 20px;
+            color: black;
+            margin: 15px;
+        }
+    }
+
+    .div2 {
+        margin-top: 10px;
+
+        i {
+            font-size: 20px;
+            opacity: 0.8;
+            margin: 5px;
+        }
+    }
+
+    span {
+        display: none;
+    }
+
+    #nav {
+        display: none;
+    }
+
+    @media (width<500px) {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        .div {
+            margin-left: -40px;
+        }
+
+        .div2 {
+            margin-left: 80px;
+        }
+
+        nav {
+            display: none;
+        }
+
+        span {
+            display: block;
+            position: absolute;
+            top: 25px;
+            right: 20px;
+            font-size: 35px;
+        }
+
+        #nav {
+            display: block;
+            width: 350px;
+            height: 100vh;
+            background-color: white;
+            position: absolute;
+            padding: 30px;
+            transform: translateX(-355px);
+            top: 0;
+
+            i {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                font-size: 40px;
+            }
+
+            a {
+                display: block;
+                text-decoration: none;
+                font-family: merienda;
+                border-bottom: 1px solid rgb(158, 158, 158);
+                font-size: 25px;
+                margin-top: 25px;
+                padding-bottom: 10px;
+                color: black;
+            }
+        }
+    }
+}
+
+.contact {
+    width: 100%;
+    height: auto;
+    padding: 50px 0px 0px 30px;
+    padding-bottom: 50px;
+    margin-top: 90px;
+
+    .top {
+        width: 93%;
+        height: auto;
+        text-align: center;
+        margin-left: 3.5%;
+
+        h1 {
+            font-family: merienda;
+            color: rgb(2, 2, 87);
+            font-size: 28px;
+            padding-bottom: 20px;
+            position: relative;
+        }
+
+        ::after{
+            content: '';
+            width: 60px;
+            height: 3px;
+            background-color: rgb(0, 204, 255);
+            position: absolute;
+            top: 55px;
+            left: 580px;
+        }
+
+        p {
+            margin-top: 30px;
+            font-family: poppins;
+        }
+    }
+
+    .location {
+        width: 90%;
+        height: auto;
+        margin-top: 50px;
+        margin-left: 5%;
+        padding-left: 5%;
+    }
+
+    .container {
+        width: 93%;
+        height: auto;
+        display: flex;
+        margin-top: 30px;
+        justify-content: center;
+        margin-left: 3.5%;
+
+        .card {
+            width: 35%;
+            height: auto;
+            padding: 10px 0px 0px 20px;
+
+            .call {
+                width: 100%;
+                height: 80px;
+                display: flex;
+                font-family: poppins;
+                margin-top: 25px;
+
+                .box {
+                    width: 60px;
+                    height: 60px;
+                    background-color: skyblue;
+                    color: rgb(3, 110, 110);
+                    border-radius: 50%;
+                    padding: 2px 0px 0px 10px;
+
+                    i {
+                        font-size: 40px;
+                    }
+                }
+
+                .box2 {
+                    width: 270px;
+                    height: auto;
+                    margin-left: 20px;
+                }
+            }
+        }
+
+        .card2 {
+            width: 55%;
+            height: auto;
+            padding: 20px 0px 30px 20px;
+
+            form {
+                width: 100%;
+                height: auto;
+                display: flex;
+
+                .box {
+                    width: 50%;
+                    height: auto;
+
+                    input {
+                        width: 300px;
+                        height: 45px;
+                        margin-top: 20px;
+                        font-family: poppins;
+                        padding-left: 20px;
+                        font-size: 16px;
+                    }
+                }
+            }
+
+            input {
+                width: 625px;
+                height: 45px;
+                margin-top: 20px;
+                font-family: poppins;
+                padding-left: 20px;
+                font-size: 16px;
+            }
+
+            textarea {
+                width: 625px;
+                height: 150px;
+                margin-top: 20px;
+                font-family: poppins;
+                padding: 20px;
+                font-size: 16px;
+                opacity: 0.7;
+            }
+
+            button {
+                width: 150px;
+                height: 40px;
+                background-color: rgb(45, 148, 136);
+                color: white;
+                border: none;
+                font-size: 17px;
+                margin-left: 240px;
+                margin-top: 30px;
+                cursor: pointer;
+                border-radius: 50px;
+            }
+        }
+    }
+
+    @media (width<500px) {
+        width: 100%;
+        float: none;
+
+        .top {
+            width: 100%;
+            margin: 0;
+            margin-left: -3%;
+
+            ::after {
+                left: 135px;
+            }
+        }
+
+        .location {
+            width: 100%;
+            margin: 0;
+            margin-top: 50px;
+
+            iframe {
+                width: 100%;
+                margin-left: -5%;
+            }
+        }
+
+        .container {
+            width: 100%;
+            display: block;
+
+            .card {
+                width: 95%;
+                margin-left: -2%;
+
+                .call {
+                    width: 100%;
+                    margin-top: 20px;
+
+                    .box {
+                        width: 60px;
+                        height: 55px;
+
+                        i {
+                            font-size: 33px;
+                        }
+                    }
+                }
+
+                iframe {
+                    width: 107%;
+                    margin-left: -20px;
+                }
+            }
+
+            .card2 {
+                width: 95%;
+                margin-top: 30px;
+                margin-left: -8px;
+
+                form {
+                    display: block;
+
+                    .box {
+                        width: 100%;
+
+                        input {
+                            width: 90%;
+                        }
+                    }
+                }
+
+                input {
+                    width: 90%;
+                }
+
+                textarea {
+                    width: 90%;
+                }
+
+                button {
+                    margin-left: 0px;
+                    margin-left: 60px;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: rgb(233, 232, 230);
+    padding: 30px;
+
+    p {
+        font-family: poppins;
+        text-align: center;
+
+        a {
+            text-decoration: none;
+            color: rgb(52, 183, 167);
+        }
+    }
+
+    @media (width<500px) {
+        width: 100%;
+        font-size: 13px;
+    }
+}

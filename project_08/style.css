@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px 0px 30px;
+    background-color: rgb(233, 232, 230);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+
+    .div {
+        a {
+            font-family: poppins;
+            text-decoration: none;
+            color: black;
+            font-size: 30px;
+        }
+    }
+
+    nav {
+        margin-top: 10px;
+
+        a {
+            font-family: merienda;
+            text-decoration: none;
+            font-size: 20px;
+            color: black;
+            margin: 15px;
+        }
+    }
+
+    .div2 {
+        margin-top: 10px;
+
+        i {
+            font-size: 20px;
+            opacity: 0.8;
+            margin: 5px;
+        }
+    }
+
+    span {
+        display: none;
+    }
+
+    #nav {
+        display: none;
+    }
+
+    @media (width<500px) {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        .div {
+            margin-left: -40px;
+        }
+
+        .div2 {
+            margin-left: 80px;
+        }
+
+        nav {
+            display: none;
+        }
+
+        span {
+            display: block;
+            position: absolute;
+            top: 25px;
+            right: 20px;
+            font-size: 35px;
+        }
+
+        #nav {
+            display: block;
+            width: 350px;
+            height: 100vh;
+            background-color: white;
+            position: absolute;
+            padding: 30px;
+            transform: translateX(-350px);
+            top: 0;
+
+            i {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                font-size: 40px;
+            }
+
+            a {
+                display: block;
+                text-decoration: none;
+                font-family: merienda;
+                border-bottom: 1px solid rgb(158, 158, 158);
+                font-size: 25px;
+                margin-top: 25px;
+                padding-bottom: 10px;
+                color: black;
+            }
+        }
+    }
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://mskweb.github.io/products/Portfolio/02-Kelly/assets/img/hero-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    .card {
+        width: 500px;
+        height: auto;
+        margin: 0 auto;
+        padding-top: 300px;
+        text-align: center;
+
+        h1 {
+            font-family: merienda;
+            font-size: 45px;
+        }
+
+        p {
+            font-family: poppins;
+            opacity: 0.7;
+            font-size: 20px;
+        }
+
+        button {
+            width: 120px;
+            height: 40px;
+            background-color: rgb(33, 161, 211);
+            border: none;
+            border-radius: 50px;
+            color: white;
+            font-family: poppins;
+            margin-top: 20px;
+        }
+    }
+
+    @media (width<500px) {
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: -620px;
+
+        .card {
+            width: 80%;
+            text-align: left;
+            margin-left: 10%;
+
+            h1 {
+                font-size: 40px;
+            }
+        }
+    }
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: rgb(233, 232, 230);
+    padding: 30px;
+
+    p {
+        font-family: poppins;
+        text-align: center;
+
+        a {
+            text-decoration: none;
+            color: rgb(52, 183, 167);
+        }
+    }
+
+    @media (width<500px) {
+        width: 100%;
+        font-size: 13px;
+    }
+}

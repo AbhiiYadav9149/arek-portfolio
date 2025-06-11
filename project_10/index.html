@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laura</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Caveat:wght@400..700&family=Merienda:wght@300..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Caveat:wght@400..700&family=Merienda:wght@300..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Caveat:wght@400..700&family=Merienda:wght@300..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cardo:ital,wght@0,400;0,700;1,400&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Merienda:wght@300..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&display=swap"
+        rel="stylesheet">
+</head>
+
+<body onscroll="bg_change()">
+    <header>
+        <nav>
+            <a href="#home" onclick="close_nav()">Home</a>
+            <a href="#about" onclick="close_nav()">About</a>
+            <a href="#resume" onclick="close_nav()">Resume</a>
+            <a href="#portfolio" onclick="close_nav()">Portfolio</a>
+            <a href="#service" onclick="close_nav()">Services</a>
+            <a href="#contact" onclick="close_nav()">Contact</a>
+        </nav>
+        <span onclick="open_nav()">
+            <i class="fa-solid fa-bars"></i>
+        </span>
+        <div id="nav">
+            <i class="fa-solid fa-xmark" onclick="close_nav()"></i>
+            <a href="#home" onclick="close_nav()">Home</a>
+            <a href="#about" onclick="close_nav()">About</a>
+            <a href="#resume" onclick="close_nav()">Resume</a>
+            <a href="#portfolio" onclick="close_nav()">Portfolio</a>
+            <a href="#service" onclick="close_nav()">Services</a>
+            <a href="#contact" onclick="close_nav()">Contact</a>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Laura Thomson</h1>
+            <p>I'm a Professional Photographer In New York City</p>
+        </div>
+    </section>
+
+    <article id="about">
+        <div class="top">
+            <h1>ABOUT ME</h1>
+            <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+        </div>
+        <div class="container">
+            <div class="card">
+            </div>
+            <div class="card2">
+                <div class="div">
+                    <div class="box">
+                        <p><i class="bi bi-chevron-right"></i><strong>Birthday:</strong> 20 April 2005</p>
+                        <p><i class="bi bi-chevron-right"></i><strong>Website:</strong> www.example.com</p>
+                        <p><i class="bi bi-chevron-right"></i><strong>Phone:</strong> +91 9149184310</p>
+                        <p><i class="bi bi-chevron-right"></i><strong>City:</strong> New York, USA</p>
+                    </div>
+                    <div class="box">
+                        <p><i class="bi bi-chevron-right"></i><strong>Age:</strong> 19</p>
+                        <p><i class="bi bi-chevron-right"></i><strong>Degree:</strong> Master</p>
+                        <p><i class="bi bi-chevron-right"></i><strong>Email:</strong> example@gmail.com</p>
+                        <p><i class="bi bi-chevron-right"></i><strong>Freelance:</strong> Available</p>
+                    </div>
+                </div>
+                <div class="container2">
+                    <div class="card3">
+                        <div class="box3">
+                            <i class="bi bi-emoji-smile"></i>
+                        </div>
+                        <div class="box4">
+                            <h1>232</h1>
+                            <h4>Happy Clients</h4>
+                            <p>consequuntur voluptas nostrum aliquid ipsam architecto ut.</p>
+                        </div>
+                    </div>
+                    <div class="card3">
+                        <div class="box3">
+                            <i class="bi bi-journal-richtext"></i>
+                        </div>
+                        <div class="box4">
+                            <h1>521</h1>
+                            <h4>Projects</h4>
+                            <p>adipisci atque cum quia aspernatur totam laudantium et quia dere tan</p>
+                        </div>
+                    </div>
+                    <div class="card3">
+                        <div class="box3">
+                            <i class="bi bi-headset"></i>
+                        </div>
+                        <div class="box4">
+                            <h1>1453</h1>
+                            <h4>Hours of Support</h4>
+                            <p>aut commodi quaerat modi aliquam nam ducimus aut voluptate non vel</p>
+                        </div>
+                    </div>
+                    <div class="card3">
+                        <div class="box3">
+                            <i class="bi bi-people"></i>
+                        </div>
+                        <div class="box4">
+                            <h1>31</h1>
+                            <h4>Hard Workers</h4>
+                            <p>rerum asperiores dolor alias quo reprehenderit eum et nemo pad der</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container3">
+                    <div class="card4">
+                        <div class="progress-content-bar">
+                            <div class="progress-content">
+                                <span>HTML</span>
+                                <span style="float: right;">100%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="bar"></div>
+                            </div>
+                        </div>
+                        <div class="progress-content-bar">
+                            <div class="progress-content">
+                                <span>CSS</span>
+                                <span style="float: right;">90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="bar" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="progress-content-bar">
+                            <div class="progress-content">
+                                <span>JAVASCRIPT</span>
+                                <span style="float: right;">75%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="bar" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <div class="resume" id="resume">
+        <div class="top">
+            <h1>Resume</h1>
+            <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+        </div>
+        <div class="container">
+            <div class="card">
+                <h1>Summary</h1>
+                <div class="summary">
+                    <h1>ALICE BARKLEY</h1>
+                    <p>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and
+                        developing user-centered digital/print marketing material from initial concept to final,
+                        polished deliverable.</p>
+                    <ul>
+                        <li>Portland par 127,Orlando, FL</li>
+                        <li>+91 9149184310</li>
+                        <li>example.@gmail.com</li>
+                    </ul>
+                </div>
+                <h1>Education</h1>
+                <div class="education">
+                    <h1>Master of Fine Arts & Graphic Design</h1>
+                    <span>2015 - 2016</span>
+                    <p>Rochester Institute of Technology, Rochester, NY</p>
+                    <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero
+                        voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+                </div>
+                <div class="education">
+                    <h1>Bachelor of Fine Arts & Graphic Design</h1>
+                    <span>2010 - 2014</span>
+                    <p>Rochester Institute of Technology, Rochester, NY</p>
+                    <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero
+                        voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+                </div>
+            </div>
+            <div class="card" style="margin-left: 1%;">
+                <h1>Professional Experience</h1>
+                <div class="summary">
+                    <h1>Senior graphic design specialist</h1>
+                    <span>2019 - Present</span>
+                    <p>Experion, New York, NY</p>
+                    <ul>
+                        <li>Lead in the design, development, and implementation of the graphic, layout, and production
+                            communication materials</li>
+                        <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the
+                            project.</li>
+                        <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of
+                            the design</li>
+                        <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+                    </ul>
+                </div>
+                <div class="education">
+                    <h1>Graphic Design Specialist</h1>
+                    <span>2017 - 2018</span>
+                    <p>Stepping Stone Advertising, New York, NY</p>
+                    <ul>
+                        <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and
+                            advertisements).</li>
+                        <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
+                        <li>Recommended and consulted with clients on the most appropriate graphic design</li>
+                        <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="service" id="service">
+        <div class="top">
+            <h1>Service</h1>
+            <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="box">
+                    <i class="fa-brands fa-dribbble"></i>
+                </div>
+                <div class="box2">
+                    <h3>Lorem ipsum</h3>
+                    <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
+                        cupiditate non provident
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <i class="fa-regular fa-file"></i>
+                </div>
+                <div class="box2">
+                    <h3>Sed ut perspiciatis</h3>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <i class="fa-solid fa-gauge-simple-high"></i>
+                </div>
+                <div class="box2">
+                    <h3>Magni Dolores</h3>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                        est laborum
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <i class="fa-solid fa-earth-americas"></i>
+                </div>
+                <div class="box2">
+                    <h3>Nemo Enim</h3>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                        deleniti atque
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="testimonials" id="testimonials">
+        <div class="testimonials-indicators">
+            <span data-slide="0" class="active"></span>
+            <span data-slide="1"></span>
+            <span data-slide="2"></span>
+            <span data-slide="3"></span>
+            <span data-slide="4"></span>
+        </div>
+        <div class="testimonials-slides">
+            <div class="testimonials-item active">
+                <div class="box2">
+                    <img src="https://mskweb.github.io/products/Portfolio/01-iPortfolio/assets/img/testimonials/testimonials-1.jpg"
+                        alt="">
+                    <h2>Saul Goodman</h2>
+                    <p>CEO & Founder</p>
+                </div>
+                <div class="box">
+                    <p><i class="bx bxs-quote-alt-left quote-icon-left"></i>Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit. Ducimus sapiente ditiis culpa autem sit quo molestias necessitatibus sapiente
+                        porro accusamus ab. <i class="bx bxs-quote-alt-right quote-icon-right"></i></p>
+                </div>
+            </div>
+            <div class="testimonials-item">
+                <div class="box2">
+                    <img src="https://mskweb.github.io/products/Portfolio/01-iPortfolio/assets/img/testimonials/testimonials-2.jpg"
+                        alt="">
+                    <h2>Sara Wilson</h2>
+                    <p>Designer</p>
+                </div>
+                <div class="box">
+                    <p>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram
+                        malis quorum velitfore
+                        eram velit suntaliqua nosterfugiat irure amet legam anim culpa.</p>
+                </div>
+            </div>
+            <div class="testimonials-item">
+                <div class="box2">
+                    <img src="https://mskweb.github.io/products/Portfolio/01-iPortfolio/assets/img/testimonials/testimonials-3.jpg"
+                        alt="">
+                    <h2>Jana Karlis</h2>
+                    <p>Store Owner</p>
+                </div>
+                <div class="box">
+                    <p><i class="bx bxs-quote-alt-left quote-icon-left"></i>Enim nisi quem export duis labore cillum
+                        quae magna enim sint quorum nulla quem veniam duis minim tempor labore
+                        quem eram duis noster aute amet eramfore quis sintminim.</p>
+                </div>
+            </div>
+            <div class="testimonials-item">
+                <div class="box2">
+                    <img src="https://mskweb.github.io/products/Portfolio/01-iPortfolio/assets/img/testimonials/testimonials-4.jpg"
+                        alt="">
+                    <h2>Matt Brandon</h2>
+                    <p>Freelance</p>
+                </div>
+                <div class="box">
+                    <p>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit
+                        minim dolor enim
+                        duis veniam ipsum anim magna suntelitfore quem dolore labore illum veniam.</p>
+                </div>
+            </div>
+            <div class="testimonials-item">
+                <div class="box2">
+                    <img src="https://mskweb.github.io/products/Portfolio/01-iPortfolio/assets/img/testimonials/testimonials-5.jpg"
+                        alt="">
+                    <h2>Jhon Larson</h2>
+                    <p>Enterpreneur</p>
+                </div>
+                <div class="box">
+                    <p>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim
+                        culpa labore duis
+                        suntculpa nulla illum cillumfugiatlegam esse veniam culpafore nisicillum quid.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio" id="portfolio">
+        <div class="top">
+            <h1>Portfolio</h1>
+            <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+        </div>
+        <div class="container">
+            <nav>
+                <a href="#">ALL</a>
+                <a href="#">APP</a>
+                <a href="#">CARD</a>
+                <a href="#">WEB</a>
+            </nav>
+            <div class="photos">
+                <div class="card">
+                    <div class="images">
+                        <img src="https://mskweb.github.io/products/Portfolio/03-Laura/assets/img/portfolio/portfolio-1.jpg"
+                            alt="">
+                    </div>
+                    <div class="images">
+                        <img src="https://mskweb.github.io/products/Portfolio/03-Laura/assets/img/portfolio/portfolio-6.jpg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="images">
+                        <img src="https://mskweb.github.io/products/Portfolio/03-Laura/assets/img/portfolio/portfolio-2.jpg"
+                            alt="">
+                    </div>
+                    <div class="images">
+                        <img src="https://mskweb.github.io/products/Portfolio/03-Laura/assets/img/portfolio/portfolio-5.jpg"
+                            alt="">
+                    </div>
+                    <div class="images">
+                        <img src="https://mskweb.github.io/products/Portfolio/03-Laura/assets/img/portfolio/portfolio-9.jpg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="images">
+                        <img src="https://mskweb.github.io/products/Portfolio/03-Laura/assets/img/portfolio/portfolio-3.jpg"
+                            alt="">
+                    </div>
+                    <div class="images">
+                        <img src="https://mskweb.github.io/products/Portfolio/03-Laura/assets/img/portfolio/portfolio-4.jpg"
+                            alt="">
+                    </div>
+                    <div class="images">
+                        <img src="https://mskweb.github.io/products/Portfolio/03-Laura/assets/img/portfolio/portfolio-7.jpg"
+                            alt="">
+                    </div>
+                    <div class="images">
+                        <img src="https://mskweb.github.io/products/Portfolio/03-Laura/assets/img/portfolio/portfolio-8.jpg"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="pricing">
+        <div class="top">
+            <h1>Pricing</h1>
+            <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div>Free</div>
+                <h1><sup>$</sup> 0 <span>/ month</span></h1>
+                <p>Aida dere</p>
+                <p>Nec feugiat nisl</p>
+                <p>Nulla at volutpat dola</p>
+                <p><del>Pharetra massa</del></p>
+                <p><del>Massa ultricies mi</del></p>
+                <div style="margin-top: 20px;">
+                    <button>Buy Now</button>
+                </div>
+            </div>
+            <div class="card">
+                <div style="background-color: rgb(255, 183, 39); color: white;">Business</div>
+                <h1><sup>$</sup> 19 <span>/ month</span></h1>
+                <p>Aida dere</p>
+                <p>Nec feugiat nisl</p>
+                <p>Nulla at volutpat dola</p>
+                <p>Pharetra massa</p>
+                <p><del>Massa ultricies mi</del></p>
+                <div style="margin-top: 20px;">
+                    <button>Buy Now</button>
+                </div>
+            </div>
+            <div class="card">
+                <div>Developer</div>
+                <h1><sup>$</sup> 29 <span>/ month</span></h1>
+                <p>Aida dere</p>
+                <p>Nec feugiat nisl</p>
+                <p>Nulla at volutpat dola</p>
+                <p>Pharetra massa</p>
+                <p>Massa ultricies mi</p>
+                <div style="margin-top: 20px;">
+                    <button>Buy Now</button>
+                </div>
+            </div>
+            <div class="card">
+                <div>Ultimate</div>
+                <h1><sup>$</sup> 49 <span>/ month</span></h1>
+                <p>Aida dere</p>
+                <p>Nec feugiat nisl</p>
+                <p>Nulla at volutpat dola</p>
+                <p>Pharetra massa</p>
+                <p>Massa ultricies mi</p>
+                <div style="margin-top: 20px;">
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact" id="contact">
+        <div class="top">
+            <h1>Contact</h1>
+            <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="upper">
+                    <i class="fa-solid fa-share-nodes"></i>
+                    <h2>Social Profile</h2>
+                    <div class="icon">
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-skype"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="lower">
+                    <div class="left">
+                        <i class="fa-regular fa-envelope"></i>
+                        <h2>Email Me</h2>
+                        <p>example@gmail.com</p>
+                    </div>
+                    <div class="right">
+                        <i class="fa-solid fa-phone-volume"></i>
+                        <h2>Call Me</h2>
+                        <p>+91 9149184310</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card2">
+                <form>
+                    <div class="box">
+                        <input type="text" name="name" id="name" placeholder="Your Name">
+                    </div>
+                    <div class="box">
+                        <input type="email" name="email" id="email" placeholder="Your Email">
+                    </div>
+                </form>
+                <input type="text" name="subject" id="subject" placeholder="Subject"><br>
+                <textarea name="message" id="message">Message</textarea><br>
+                <button>Send Message</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="card">
+                <h1>Laura Thomson</h1>
+                <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi
+                    placeat.</p>
+                <div class="icon">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-skype"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <h4>&copy; Copyright <strong>Laura.</strong> All Right Reserved</h4>
+                <h5>Designed By <a href="#">Bootstrap Made</a></h5>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
