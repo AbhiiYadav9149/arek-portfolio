@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhotoFolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Caveat:wght@400..700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Caveat:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="div">
+            <h1><i class="bi bi-camera"></i>PhotoFolio</h1>
+        </div>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="#">GALLERY</a>
+            <a href="service.html">SERVICE</a>
+            <a href="contact.html">CONTACT</a>
+        </nav>
+        <div class="div2">
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-linkedin"></i>
+        </div>
+        <span onclick="open_nav()" class="open">
+            <i class="fa-solid fa-bars"></i>
+        </span>
+        <div class="close" id="navigation_bar">
+            <i class="fa-solid fa-close" onclick="close_nav()"></i>
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="#">GALLERY</a>
+            <a href="service.html">SERVICE</a>
+            <a href="contact.html">CONTACT</a>
+            <div class="icon">
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-linkedin"></i>
+            </div>
+        </div>
+    </header>
+
+    <article>
+        <h1>Contact</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet. elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet. abhishek adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit yadav consectetur adatuvi adipisicing elit.</p>
+    </article>
+
+    <div class="container">
+        <div class="card">
+            <div class="box">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+            </div>
+            <div class="box2">
+                <h3>Location :</h3>
+                <h4>Steet-1, New York, 500158</h4>
+            </div>
+        </div>
+        <div class="card">
+            <div class="box">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+            </div>
+            <div class="box2">
+                <h3>Email :</h3>
+                <h4>Example@gmail.com</h4>
+            </div>
+        </div>
+        <div class="card">
+            <div class="box">
+                <i class="bi bi-phone flex-shrink-0"></i>
+            </div>
+            <div class="box2">
+                <h3>Call :</h3>
+                <h4>+91 9149184310</h4>
+            </div>
+        </div>
+    </div>
+
+    <section>
+        <form>
+            <input type="text" id="name" placeholder="Your Name">
+            <input type="email" id="email" placeholder="Your Email">
+            <input type="text" id="subject" style="width: 93%;" placeholder="Subject">
+            <textarea id="message" placeholder="Message"></textarea>
+            <button>Send Message</button>
+        </form>
+    </section>
+
+    <hr>
+
+    <footer>
+        <h4>&copy; Copyright PhotoFolio. All Right Reserved</h4>
+        <p>Designed By <a href="#">BootStrap Made</a></p>
+    </footer>
+
+    <script>
+        function open_nav() {
+            document.getElementById('navigation_bar').style.translate = '-100%';
+        }
+
+        function close_nav() {
+            document.getElementById('navigation_bar').style.translate = '100%';
+        }
+    </script>
+</body>
+</html>

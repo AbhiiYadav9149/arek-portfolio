@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+:root {
+    --first-color: black;
+    --second-color: white;
+    --font-family1: cardo;
+    --font-family2: open sans;
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    color: var(--second-color);
+    background-color: var(--first-color);
+    padding-top: 25px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+
+    .div {
+        width: 250px;
+
+        h1 {
+            color: var(--second-color);
+            font-family: var(--font-family);
+
+            i {
+                margin-right: 10px;
+                color: green;
+            }
+        }
+    }
+
+    nav {
+        padding-top: 10px;
+        font-family: var(--font-family2);
+
+        a {
+            color: var(--second-color);
+            text-decoration: none;
+            margin: 15px;
+        }
+    }
+
+    .div2 {
+        width: 200px;
+        padding-top: 15px;
+
+        i {
+            margin: 7px;
+            opacity: 0.7;
+        }
+    }
+
+    .close_nav {
+        display: none;
+    }
+
+    span {
+        font-size: 25px;
+        display: none;
+        transform: translateX(-20px);
+        cursor: pointer;
+    }
+
+    .close {
+        display: none;
+    }
+
+    @media (max-width: 500px) {
+
+        header {
+            position: absolute;
+            top: 0;
+            z-index: 1;
+        }
+
+        .div {
+            width: 60%;
+            height: auto;
+            font-size: 14px;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            display: none;
+        }
+
+        .div2 {
+            display: none;
+            width: 40%;
+            height: auto;
+            margin-top: 10px;
+            padding: 0;
+        }
+
+        span {
+            display: block;
+        }
+
+        span>.open {
+            padding: 10px;
+        }
+
+        .close {
+            display: grid;
+            width: 300px;
+            height: 400px;
+            background-color: black;
+            font-family: var(--font-family2);
+            padding: 20px;
+            position: absolute;
+            top: 15px;
+            transform: translate(500px);
+            cursor: pointer;
+
+            a {
+                margin: 10px 0px 10px 0px;
+                text-decoration: none;
+                color: white;
+            }
+
+            .icon {
+                i {
+                    display: inline-block;
+                    margin: 5px;
+                }
+            }
+        }
+    }
+}
+
+article {
+    width: 100%;
+    height: 250px;
+    color: var(--second-color);
+    margin-top: 100px;
+
+    h1 {
+        text-align: center;
+        font-family: var(--font-family1);
+        font-size: 45px
+    }
+
+    p {
+        text-align: center;
+        font-family: var(--font-family2);
+    }
+
+    @media (width<500px) {
+        h1 {
+            font-size: 45px;
+        }
+
+        h4 {
+            font-size: 15px;
+        }
+    }
+}
+
+.container {
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+    height: auto;
+    display: flex;
+
+    .card {
+        width: 350px;
+        height: auto;
+        padding: 5px;
+        display: flex;
+
+        .box {
+            width: 50px;
+            height: 50px;
+            background-color: rgb(27, 26, 26);
+            padding-top: 12px;
+            padding-left: 13px;
+            border-radius: 50%;
+
+            i {
+                font-size: 25px;
+                color: green;
+            }
+        }
+
+        .box2 {
+            width: 270px;
+            margin-left: 10px;
+
+            h3 {
+                color: white;
+                opacity: 0.7;
+                font-family: var(--font-family2);
+            }
+
+            h4 {
+                color: white;
+                font-family: var(--font-family2);
+            }
+        }
+    }
+
+    @media (width<500px) {
+        display: block;
+        padding: 10px;
+        margin: 0;
+    }
+}
+
+section {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 50px;
+
+    form {
+        width: 100%;
+        height: auto;
+        text-align: center;
+
+        input {
+            width: 483px;
+            height: 50px;
+            margin: 15px;
+            opacity: 0.8;
+            font-size: 17px;
+            padding-left: 25px;
+            font-family: var(--font-family2);
+            background-color: rgb(24, 23, 23);
+            border: 1px solid white;
+            border-radius: 5px;
+        }
+
+        textarea {
+            width: 93%;
+            height: 150px;
+            margin: 15px;
+            opacity: 0.8;
+            padding: 25px;
+            font-size: 17px;
+            font-family: var(--font-family2);
+            background-color: rgb(24, 23, 23);
+            border: 1px solid white;
+            border-radius: 5px;
+        }
+
+        button {
+            width: 250px;
+            height: 50px;
+            background-color: green;
+            color: white;
+            font-size: 20px;
+            font-family: var(--font-family2);
+            border: none;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+    }
+
+    @media (width< 500px) {
+        section {
+            width: 100%;
+            margin-left: 0;
+        }
+
+        form {
+            input {
+                width: 93%;
+                font-size: 15px;
+                padding-left: 15px;
+            }
+
+            textarea {
+                width: 93%;
+                padding: 15px;
+                font-size: 15px;
+            }
+
+            button {
+                width: 200px;
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+hr {
+    margin-top: 20px;
+    opacity: 0.7;
+}
+
+footer {
+    width: 100%;
+    height: 120px;
+    color: var(--second-color);
+    padding-top: 30px;
+
+    @media (width<500px) {
+        font-size: 15px;
+    }
+
+    h4 {
+        text-align: center;
+        font-family: var(--font-family2);
+    }
+
+    p {
+        text-align: center;
+        font-family: var(--font-family2);
+
+        a {
+            text-decoration: none;
+            color: green;
+        }
+    }
+}
