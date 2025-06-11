@@ -37,7 +37,7 @@ const Home = () => {
           </span>
         </Link>
 
-        <Link to='/contact' className='button' style={{ marginLeft: '2rem' }}>
+        <Link to='/contact' className='button' style={{ marginLeft: '1rem' }}>
           Hire Me
           <span className='button-icon'>
             <RiUserAddLine />
