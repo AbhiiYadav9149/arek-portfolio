@@ -7,30 +7,23 @@ import AppLayout from './components/AppLayout'
 import { createBrowserRouter, RouterProvider } from "react-router"
 
 const App = () => {
-  const router = createBrowserRouter([
+  const router = createBrowserRouter(
+  [
     {
       path: '/',
       element: <AppLayout />,
       children: [
-        {
-          path: '/',
-          element: <Home />
-        },
-        {
-          path: '/about',
-          element: <About />
-        },
-        {
-          path: '/portfolio',
-          element: <Portfolio />
-        },
-        {
-          path: '/contact',
-          element: <Contact />
-        }
+        { path: '/', element: <Home /> },
+        { path: '/about', element: <About /> },
+        { path: '/portfolio', element: <Portfolio /> },
+        { path: '/contact', element: <Contact /> }
       ]
     }
-  ])
+  ],
+  {
+    basename: '/arek-portfolio' // 👈 required for GitHub Pages
+  }
+);
   return <RouterProvider router={router} /> ;
 };
 

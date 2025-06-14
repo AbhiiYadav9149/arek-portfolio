@@ -272,7 +272,7 @@ export const portfolio = [
     description:
       'Short description of the project that was carried out in this portfolio.',
     skills: [skillsImg1, skillsImg2, skillsImg3],
-    link: '/project_01/index.html',
+    link: '/arek-portfolio/project_01/index.html',
   },
 
   {
@@ -282,7 +282,7 @@ export const portfolio = [
     description:
       'Short description of the project that was carried out in this portfolio.',
     skills: [skillsImg1, skillsImg2, skillsImg3],
-    link: '/project_02/index.html',
+    link: '/arek-portfolio/project_02/index.html',
   },
 
   {
@@ -292,7 +292,7 @@ export const portfolio = [
     description:
       'Short description of the project that was carried out in this portfolio.',
     skills: [skillsImg1, skillsImg2, skillsImg3],
-    link: '/project_03/index.html',
+    link: '/arek-portfolio/project_03/index.html',
   },
 
   {
@@ -302,7 +302,7 @@ export const portfolio = [
     description:
       'Short description of the project that was carried out in this portfolio.',
     skills: [skillsImg1, skillsImg2, skillsImg3],
-    link: '/project_04/index.html',
+    link: '/arek-portfolio/project_04/index.html',
   },
 
   {
@@ -312,7 +312,7 @@ export const portfolio = [
     description:
       'Short description of the project that was carried out in this portfolio.',
     skills: [skillsImg1, skillsImg2, skillsImg3],
-    link: '/project_05/index.html',
+    link: '/arek-portfolio/project_05/index.html',
   },
 
   {
@@ -322,7 +322,7 @@ export const portfolio = [
     description:
       'Short description of the project that was carried out in this portfolio.',
     skills: [skillsImg1, skillsImg2, skillsImg3],
-    link: '/project_06/index.html',
+    link: '/arek-portfolio/project_06/index.html',
   },
 
   {
@@ -332,7 +332,7 @@ export const portfolio = [
     description:
       'Short description of the project that was carried out in this portfolio.',
     skills: [skillsImg1, skillsImg2, skillsImg3],
-    link: '/project_07/index.html',
+    link: '/arek-portfolio/project_07/index.html',
   },
 
   {
@@ -342,7 +342,7 @@ export const portfolio = [
     description:
       'Short description of the project that was carried out in this portfolio.',
     skills: [skillsImg1, skillsImg2, skillsImg3],
-    link: '/project_08/index.html',
+    link: '/arek-portfolio/project_08/index.html',
   },
 
   {
@@ -352,7 +352,7 @@ export const portfolio = [
     description:
       'Short description of the project that was carried out in this portfolio.',
     skills: [skillsImg1, skillsImg2, skillsImg3],
-    link: '/project_09/index.html',
+    link: '/arek-portfolio/project_09/index.html',
   },
 
   {
@@ -362,7 +362,7 @@ export const portfolio = [
     description:
       'Short description of the project that was carried out in this portfolio.',
     skills: [skillsImg1, skillsImg2, skillsImg3],
-    link: '/project_10/index.html',
+    link: '/arek-portfolio/project_10/index.html',
   },
 ];
 
